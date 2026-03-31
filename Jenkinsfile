@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-friend-username/mavendemo.git'
+                git https://github.com/samyuktha-sundar/mavendemo_.git
             }
         }
 
